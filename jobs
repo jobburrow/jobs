@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBBURROW</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JOBBURROW</h1>
+        <p>Email: <a href="mailto:jobburrow@outlook.com">jobburrow@outlook.com</a></p>
+    </header>
+
+    <main>
+        <section id="vacancies">
+            <h2>Current Vacancies</h2>
+            <ul>
+                <li>Payroll Manager</li>
+                <li>Clerk</li>
+                <li>Account Manager</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Our Website</h2>
+            <p>Job Burrow is a third-party company that offers payment integration by outsourcing services to trusted employees around the world. Our partnership with GitHub offers online jobs for trusted employees globally.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 JOBBURROW. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section h2 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #e8f5e9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+// This is where you can add any interactivity or additional functionality to your website
+console.log('Welcome to JOBBURROW!');
